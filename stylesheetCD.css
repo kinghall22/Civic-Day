@@ -1,0 +1,203 @@
+/*Container*/
+div {
+    border-radius:6px;
+    color:white;
+    
+}
+/*Jumbotron*/
+h1 {
+    color:white;
+    font-size:56px;
+    font-family:futura;
+    font-style: italic
+    
+}
+h4 {
+    font-family:futura;
+    font-style: italic;
+
+}
+p {
+	color:white;
+	font-size: 2em;
+}
+
+/*Bottom Bar/Pinterest/IG/Twitter logo*/
+.highkey {
+  color:white;
+    float: right;
+    font-size: 46px;
+}
+.lowkey {
+    color: white;
+    float: right;
+    font-size: 46px;
+    padding-right:20px;
+    
+}
+.lowkey2 {
+    color: white;
+    float: right;
+    font-size: 46px;
+    padding-right:20px;
+}
+/*Jumbotron Page Layout*/
+.Clothing {
+	background-image: url(http://www.chrisaylen.com/posts/180912/box_logo_tees_overview_1_big.jpg);
+	background-position: center top;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+
+ .Clothing a {
+	color:red;
+	font-size: 24px;
+	text-decoration: none;
+}
+.sports{
+    background-image: url(http://cdn-s3.si.com/s3fs-public/2016/03/30/kevin-durant-free-agency-nba-1.jpg);
+	background-position: center top;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+.Music{
+     background-image: url(https://consequenceofsound.files.wordpress.com/2016/04/drake-views-6-album.png?w=806&h=805);
+	background-position: center top;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+.News {
+	background-image: url(http://www.channel3000.com/image/view/-/40391428/medRes/2/-/maxh/365/maxw/650/-/14bgsy9z/-/protesters-of-Sterling-killing-JPG.jpg);
+	background-position: center top;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+/*
+h2 {
+	color:white;
+	font-size: 56px; 
+}
+*/
+
+/*
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+*/
+/*Searchbar*/
+input[type=text] {
+
+    box-sizing:content-box;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color:whitesmoke;
+    background-image: url('searchicon.png');
+   float: right;
+    
+
+}
+/*Container List */
+ul {
+
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+    border-radius:5px;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Futura;
+    font-size:30px;
+    font-style:italic;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*Icons*/
+.active1 {
+    color:white;
+    float:center;
+    font-size: 46px;
+}
+.active2 {
+    color:white;
+    float:center;
+    font-size: 46px;
+    padding-left: 5px;
+}
+
+
+/*Dropdown Button*/
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*li a:hover, .dropdown:hover .dropbtn {*/
+/*
+    background-color:white;
+}
+*/
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 17px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display:flex;
+}
